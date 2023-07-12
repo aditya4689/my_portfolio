@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+
+<div class="row " >
+<div class="col-md-6-sm-6" >
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGTzSt-tWpbzUZgGPZ1ufRazeJEW20hfZ65w&usqp=CAU"  image-responsive>
+        <div class="card-body">
+          <h5 class="card-title">Aditya Jha</h5>
+          <p class="card-text"> full stack developer</p>
+        </div>
+        
+        <div class="card-body">
+          <a href="https://github.com/aditya4689" class="card-link">GitHub</a>
+          <a href="https://www.linkedin.com/in/aditya-kumar-27299a203/" class="card-link">LinkedIn</a>
+        </div>
+    </div>
+</div>
+        
+
+            <div class="card-body col-md-6-sm-6">
+              <h5 class="card-title">About Me</h5>
+              <p class="card-text">{{ about_me }}</p>
+              {% comment %} <a href="#" class="btn btn-primary">Go somewhere</a> {% endcomment %}
+            </div>
+        </div>
+      </div>
+    
+    </div>
+
+{% endblock %}
